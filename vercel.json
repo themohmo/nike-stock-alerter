@@ -1,0 +1,14 @@
+{
+  "crons": [
+    {
+      "path": "/api/check-stock",
+      "schedule": "*/5 * * * *"
+    }
+  ],
+  "functions": {
+    "api/check-stock.js": {
+      "maxDuration": 30,
+      "memory": 256
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.env
+state.json
+alerter.log
+alerter.pid
+nohup.out
+node_modules

@@ -1,0 +1,13 @@
+{
+  "name": "nike-stock-alerter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Nike UAE EU 46 stock alerter — runs locally",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node run.js",
+    "start:local": "node --env-file=.env run.js"
+  }
+}
